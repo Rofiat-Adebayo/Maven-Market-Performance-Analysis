@@ -41,7 +41,7 @@ The dashboard includes:
 ---
 
 ## 🗂 Dataset Summary
-The dataset contains six interconnected tables:
+The dataset contains seven interconnected tables:
 
 <img width="213" height="483" alt="!tablws" src="https://github.com/user-attachments/assets/ee7a0fa6-6e24-4fd7-b522-8c5a4d5dc741" />
 
