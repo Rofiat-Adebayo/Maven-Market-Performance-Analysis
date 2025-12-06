@@ -1,13 +1,32 @@
  📊 Maven Market Performance Analysis  
-**Power BI Retail Analytics Dashboard**
+ 
+*A Power BI retail analytics solution delivering market insights, profitability trends, and strategic recommendations for Maven Market  
 
-This project provides a complete market performance analysis for Maven Market, a global retail chain.  
 Using Power BI, I analyzed sales, transactions, profit, returns, and product-brand performance to help business leaders make data-driven decisions.
+
+---
+## 📌 Table of Contents
+
+- [Project Overview](#-project-overview)
+- [Dataset Summary](#-dataset-summary)
+- [Key Business Questions](#-key-business-questions)
+- [Dashboard Features](#-dashboard-features)
+- [Executive Insights](#-executive-insights)
+- [Tools & Technologies](#-tools--technologies)
+- [Data Modeling](#-data-modeling)
+- [Business Recommendations](#-business-recommendations)
+- [Project Structure](#-project-structure)
+- [What I Learned](#-what-i-learned)
+- [About Me](#-about-me)
+- [Contact](#-contact)
 
 ---
 
 ## 🚀 Project Overview
 The goal of this analysis is to uncover key insights that drive revenue growth, identify top-performing regions, evaluate product profitability, and monitor business goals such as monthly profit and return rates.
+
+🔗 Live Dashboard:
+https://app.fabric.microsoft.com/reportEmbed?reportId=db57360e-feed-4601-96e9-c80339ea9061&autoAuth=true&ctid=37d7521a-5079-48af-9131-4ac2cb6f1e3a
 
 The dashboard includes:
 - Executive KPIs  
@@ -22,6 +41,8 @@ The dashboard includes:
 ## 🗂 Dataset Summary
 The dataset contains six interconnected tables:
 
+<img width="213" height="483" alt="!tablws" src="https://github.com/user-attachments/assets/ee7a0fa6-6e24-4fd7-b522-8c5a4d5dc741" />
+
 | Table Name        | Description |
 |-------------------|-------------|
 | **Products**       | Product details (brand, cost, retail price, weight, SKU) |
@@ -35,7 +56,7 @@ The relational structure enabled end-to-end insights across locations, product c
 
 ---
 
-## 🎯 Key Business Questions
+##  Key Business Questions
 - Which cities drive the highest number of transactions?
 - Are we meeting monthly revenue and profit goals?
 - Which product brands deliver the highest profit margin?
@@ -45,7 +66,38 @@ The relational structure enabled end-to-end insights across locations, product c
 
 ---
 
+## 📊 Dashboard Features
+
+### ✔ Executive KPIs
+- Total Transactions  
+- Total Profit  
+- Return Rate  
+- Revenue vs Target  
+
+### ✔ Sales Trends
+- Weekly revenue trending  
+- Month-over-month performance  
+
+### ✔ Product Performance
+- Top 30 product brands  
+- Profit margin comparison  
+- Return rate by product  
+
+### ✔ Geographic Analysis
+- Map visualization of store-city transactions  
+- Country and state filtering (USA, Canada, Mexico)  
+- Region-level insights  
+
+### ✔ Interactive Features
+- Drillthrough  
+- Slicers (Country, city, brand)  
+- Dynamic filters  
+- Hover tooltips  
+---
 ## ⭐ Executive Insights
+
+<img width="619" height="335" alt="!executive" src="https://github.com/user-attachments/assets/c1187d06-d150-4960-a24e-27f59585e88e" />
+
 
 ### 1️⃣ Strong Monthly Performance  
 - **Current Month Transactions:** 18,325  
@@ -77,6 +129,8 @@ This is significantly lower than target levels, indicating strong customer satis
 - **Target:** $119K  
 Sales teams successfully met revenue goals.
 
+
+
 ---
 
 ## 🛠️ Tools & Technologies
@@ -94,40 +148,12 @@ Relationships were created across:
 - Customers → Transactions  
 - Regions → Stores  
 - Return Data → Products
+- Buit a Calendar Table → Transactions → Return Data
+- Buit a measure(DAX) Table
   
 <img width="946" height="476" alt="!Modelling" src="https://github.com/user-attachments/assets/c4c44ae5-5844-44c6-9e54-d98dd5c679a1" />
 
 This enabled drilldowns at product, city, brand, and country levels.
-
----
-
-## 📊 Dashboard Features
-
-### ✔ Executive KPIs
-- Total Transactions  
-- Total Profit  
-- Return Rate  
-- Revenue vs Target  
-
-### ✔ Sales Trends
-- Weekly revenue trending  
-- Month-over-month performance  
-
-### ✔ Product Performance
-- Top 30 product brands  
-- Profit margin comparison  
-- Return rate by product  
-
-### ✔ Geographic Analysis
-- Map visualization of store-city transactions  
-- Country and state filtering (USA, Canada, Mexico)  
-- Region-level insights  
-
-### ✔ Interactive Features
-- Drillthrough  
-- Slicers (Country, city, brand)  
-- Dynamic filters  
-- Hover tooltips  
 
 ---
 
@@ -148,3 +174,47 @@ The low return rate (~1%) should continue to be monitored as a KPI of product re
 ---
 
 ## 📁 Project Structure
+
+📂 Maven-Market-Performance-Analysis
+ ├── 📂 Dataset
+ │   └── retail_data.xlsx
+ ├── 📂 Dashboard
+ │   └── MavenMarket.pbix
+ ├── 📂 Screenshots
+ │   ├── dashboard_overview.png
+ │   └── product_trends.png
+ ├── README.md
+ └── insights.pdf
+
+
+---
+
+##  What I Learned
+- Building multi-table relationships in Power BI  
+- Creating KPIs with DAX  
+- Designing clean and interactive dashboards  
+- Performing profit margin and return rate analysis  
+- Communicating insights to business users  
+- Understanding retail analytics and product performance drivers  
+
+---
+
+## 💼 About Me
+I am a Data Analyst with skills in:
+- Power BI  
+- SQL  
+- Excel  
+- Data Cleaning  
+- Insight Generation  
+
+This project showcases my ability to turn raw retail data into meaningful business insights.
+
+---
+
+## 📬 Contact
+Feel free to reach out!
+
+**LinkedIn:** https://linkedin.com/in/rofiat-adebayo  
+**Email:** adebayorofiat004@gmail.com  
+
+
