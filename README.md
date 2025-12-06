@@ -25,8 +25,10 @@ Using Power BI, I analyzed sales, transactions, profit, returns, and product-bra
 ## 🚀 Project Overview
 The goal of this analysis is to uncover key insights that drive revenue growth, identify top-performing regions, evaluate product profitability, and monitor business goals such as monthly profit and return rates.
 
+
 🔗 Live Dashboard:
 https://app.fabric.microsoft.com/reportEmbed?reportId=db57360e-feed-4601-96e9-c80339ea9061&autoAuth=true&ctid=37d7521a-5079-48af-9131-4ac2cb6f1e3a
+
 
 The dashboard includes:
 - Executive KPIs  
@@ -51,6 +53,7 @@ The dataset contains six interconnected tables:
 | **Regions**        | Regional grouping of stores |
 | **Transactions**   | Detailed sales transactions |
 | **Return Data**    | Product returns and return dates |
+| **Calendar**       |  A custom date table used for time intelligence, reporting, and period-based analysis
 
 The relational structure enabled end-to-end insights across locations, product categories, and time.
 
@@ -148,8 +151,8 @@ Relationships were created across:
 - Customers → Transactions  
 - Regions → Stores  
 - Return Data → Products
-- Buit a Calendar Table → Transactions → Return Data
-- Buit a measure(DAX) Table
+- Built a Calendar Table → Transactions → Return Data
+- Built a measure(DAX) Table
   
 <img width="946" height="476" alt="!Modelling" src="https://github.com/user-attachments/assets/c4c44ae5-5844-44c6-9e54-d98dd5c679a1" />
 
