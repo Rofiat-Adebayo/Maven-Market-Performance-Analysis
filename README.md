@@ -262,6 +262,9 @@ That distinction between **reporting a number and evaluating a number** became c
 
 # Analysis & Key Findings
 
+
+<img width="619" height="335" alt="!executive" src="https://github.com/user-attachments/assets/c1187d06-d150-4960-a24e-27f59585e88e" />
+
 ## 1. Transaction Performance
 
 Maven Market recorded:
