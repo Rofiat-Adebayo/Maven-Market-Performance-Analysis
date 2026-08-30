@@ -2,7 +2,13 @@
 
 > **A retail performance analysis investigating whether Maven Market is meeting its commercial targets, what is driving performance, and where management attention should be focused.**
 
----
+### Tools & Technologies
+
+![Power BI](https://img.shields.io/badge/Power%20BI-Data%20Visualization-F2C811?logo=powerbi&logoColor=black)
+![Microsoft Excel](https://img.shields.io/badge/Excel-Data%20Analysis-217346?logo=microsoftexcel&logoColor=white)
+![Power Query](https://img.shields.io/badge/Power%20Query-Data%20Transformation-2F75B5)
+![DAX](https://img.shields.io/badge/DAX-Data%20Modeling-F2C811)
+
 
 ## Table of Contents
 
@@ -70,23 +76,21 @@ to answering:
 
 # Business Problem
 
-Strong headline revenue does not necessarily mean every part of a retail business is performing well.
+The management challenge was not simply to measure sales, but to determine whether Maven Market's performance was sustainable, where it was coming from, and which areas required attention.
 
-Aggregate numbers can hide differences across:
-
-- products,
-- brands,
-- stores,
-- cities,
-- regions,
-- customer segments,
-- and time periods.
-
-A strong revenue figure alone also does not tell management whether targets are being achieved, whether high-selling products are profitable, or whether returns are reducing the value generated from sales.
-
-I therefore framed the project around a broader business question:
+A positive headline KPI can hide important differences across products, locations, profitability, and returns. I therefore framed the analysis around one central question:
 
 > **How well is Maven Market performing against its commercial goals, what is driving the results, and where should management focus its attention?**
+
+To investigate this, I focused on seven supporting questions:
+
+1. Is Maven Market meeting its transaction and revenue targets?
+2. Which products and brands contribute most strongly to performance?
+3. Are high-volume products also generating strong margins?
+4. Which locations are driving transaction activity?
+5. How is performance changing over time?
+6. Are returns creating a meaningful commercial risk?
+7. What actions should management consider based on the evidence?
 
 To answer this, I broke the problem into several supporting questions:
 
@@ -487,91 +491,30 @@ Use interactive filters, tooltips, and drill-through functionality to investigat
 
 # Reflection
 
-The biggest lesson from this project was not how to create another Power BI dashboard.
+The most important lesson from this project was learning to move beyond **reporting what happened** and investigate **why it happened and what it means for the business**.
 
-It was learning to separate **reporting metrics from answering business questions**.
+Throughout the analysis, I learned to challenge headline KPIs rather than accept them at face value. A result could be above target but still have limited headroom; strong transaction volume could be concentrated in only a few markets; and high sales activity did not automatically mean strong profitability.
 
-It would have been easy to build charts showing revenue, transactions, products, and locations and consider the analysis complete.
+I also became more deliberate about separating:
 
-Instead, I repeatedly challenged the numbers by asking:
+> **What the data shows → What the evidence suggests → What still needs to be validated**
 
-> **Compared with what?**
+The year-end revenue increase was a good example. The data showed stronger performance between October and December, but the available evidence was not enough to confidently label it a recurring seasonal pattern.
 
-> **What is driving this number?**
-
-> **Is this performance broad or concentrated?**
-
-> **Does high sales activity also translate into profitability?**
-
-> **Could an aggregate KPI be hiding a problem underneath?**
-
-> **What decision could someone make differently because of this analysis?**
-
-Those questions changed the project from a collection of retail visualisations into an analytical investigation.
-
-Another important lesson was recognising the difference between **evidence and inference**.
-
-For example, stronger revenue between October and December is visible in the data.
-
-But calling that pattern established seasonality would require additional historical evidence.
-
-Learning to distinguish between:
-
-**what the data shows → what it suggests → what still needs to be validated**
-
-was one of the most valuable parts of the project.
-
-That is an analytical discipline I would carry into future business problems.
+That distinction reinforced an important analytical principle for me: **the strength of a conclusion should match the strength of the evidence behind it.**
 
 ---
 
 # Conclusion
 
-Maven Market was performing above its current transaction target and meeting its revenue benchmark, but aggregate performance only told part of the story.
+Maven Market's headline performance was positive: transactions were approximately **5.7% above target**, revenue exceeded its benchmark, several brands generated strong margins, and the overall return rate remained controlled.
 
-The deeper analysis showed that performance was influenced by specific high-volume locations, profitable brands, and stronger trading periods, while overall returns remained relatively controlled.
+The deeper analysis, however, showed why those headline numbers needed context. Performance varied across locations, products, profitability, and time,  revealing where the business was strongest and where further investigation could improve decision-making.
 
-More importantly, the project demonstrated why business analysis should not stop at reporting KPIs.
+The project ultimately reinforced that effective analytics is not about producing more charts or reporting more KPIs. It is about connecting **business questions, evidence, and decisions**.
 
-The analytical process should continue by asking:
+> **The dashboard was the output. The real work was determining what questions the data needed to answer.**
 
-> **Are we on target?**
 
-> **What is driving the result?**
-
-> **Where are the risks?**
-
-> **Where should the business act?**
-
-> **What still needs to be validated?**
-
-The resulting dashboard provides a framework for answering those questions interactively.
-
-For me, this project reinforced the part of analytics I find most valuable:
-
-**turning an open-ended business problem into measurable questions, challenging what the numbers appear to say, identifying the drivers behind performance, and translating evidence into decisions.**
-
----
-
-## Repository Structure
-
-```text
-Maven-Market-Performance-Analysis/
-│
-├── README.md
-├── data/
-│   └── ...
-├── images/
-│   ├── maven-market-dashboard.png
-│   └── maven-market-data-model.png
-│
-└── Maven-Market-Analysis.pbix
-```
-
----
-
-### Project Links
-
-**Interactive Dashboard:** [View Power BI Report](YOUR_POWER_BI_LINK_HERE)
 
 **Repository:** [Maven Market Performance Analysis](YOUR_GITHUB_REPOSITORY_LINK)
