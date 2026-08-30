@@ -92,17 +92,6 @@ To investigate this, I focused on seven supporting questions:
 6. Are returns creating a meaningful commercial risk?
 7. What actions should management consider based on the evidence?
 
-To answer this, I broke the problem into several supporting questions:
-
-1. Is Maven Market meeting its transaction and revenue targets?
-2. Which products and brands contribute most strongly to performance?
-3. Are high-volume products also generating strong margins?
-4. Which locations are responsible for the greatest transaction activity?
-5. How is performance changing over time?
-6. Are product returns creating a meaningful risk?
-7. What actions could management take based on these findings?
-
----
 
 # Dataset Summary
 
@@ -520,4 +509,3 @@ The project ultimately reinforced that effective analytics is not about producin
 
 
 
-**Repository:** [Maven Market Performance Analysis](YOUR_GITHUB_REPOSITORY_LINK)
